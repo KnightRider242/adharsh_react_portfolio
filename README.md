@@ -150,7 +150,7 @@ base: '/adharsh_react_portfolio/'
 
 This is a public portfolio website. Before sharing it widely, review `src/data/profile.js` and remove anything you do not want public, such as phone number, private address, or sensitive personal details.
 
-## Suggested future improvements
+## Future improvements
 
 - Add a professional profile photo in `public/`.
 - Add downloadable PDF CV button.
