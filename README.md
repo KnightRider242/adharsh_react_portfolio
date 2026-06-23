@@ -97,24 +97,6 @@ Preview the production build:
 npm run preview
 ```
 
-## Edit your details
-
-Most personal content is stored in:
-
-```text
-src/data/profile.js
-```
-
-Update this file to change:
-
-- Education details
-- School names
-- Projects
-- Skills
-- Work experience
-- Travel places
-- Contact links
-- Open-to-role text
 
 ## Deploy to GitHub Pages
 
