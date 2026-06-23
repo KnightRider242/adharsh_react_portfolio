@@ -280,12 +280,7 @@ function Travel() {
       <SectionTitle eyebrow="Travel" title="Places visited and personal map" />
       <div className="travel-intro glass-card travel-hero-card">
         <div>
-          <p>
-            A personal section to make the portfolio feel human: studies, work, travel, photography, and places that shaped the journey from India to Germany.
-          </p>
-          <p>
-            This section is prepared for a future Google Maps Timeline export. For now, it uses curated public-safe places and links each item to Google Maps.
-          </p>
+         <p>I am working on this section.</p>
         </div>
         <div className="travel-stats">
           {travelStats.map((stat) => (
@@ -314,16 +309,6 @@ function Travel() {
           </article>
         ))}
       </div>
-
-      <div className="timeline-import-card glass-card">
-        <div>
-          <h3>{travelImportGuide.title}</h3>
-          <p>{travelImportGuide.note}</p>
-        </div>
-        <ol>
-          {travelImportGuide.steps.map((step) => <li key={step}>{step}</li>)}
-        </ol>
-      </div>
     </section>
   );
 }
@@ -332,7 +317,7 @@ function Contact() {
   return (
     <section id="contact" className="section contact-section reveal">
       <SectionTitle eyebrow="Contact" title="Let’s connect" />
-      <div className="contact-grid">
+      {/* <div className="contact-grid"> */}
         <div className="glass-card contact-copy">
           <h3>Available for student-friendly roles and collaborations.</h3>
           <p>
@@ -345,15 +330,8 @@ function Contact() {
             <a href={profile.github} target="_blank" rel="noreferrer"><ArrowUpRight size={18} /> GitHub</a>
           </div>
         </div>
-        <div className="glass-card edit-card">
-          <Download size={28} />
-          <h3>How to update this website</h3>
-          <p>
-            Edit your details in <code>src/data/profile.js</code>. The page updates automatically because all sections are data-driven.
-          </p>
-          <a className="secondary-button" href="#education">Check education placeholders</a>
-        </div>
-      </div>
+        
+      {/* </div> */}
     </section>
   );
 }
