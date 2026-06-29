@@ -279,9 +279,11 @@ function Travel() {
     <section id="travel" className="section reveal">
       <SectionTitle eyebrow="Travel" title="Places visited and personal map" />
       <div className="travel-intro glass-card travel-hero-card">
+        {/*
         <div>
          <p>I am working on this section.</p>
         </div>
+        */}
         <div className="travel-stats">
           {travelStats.map((stat) => (
             <div key={stat.label}>
