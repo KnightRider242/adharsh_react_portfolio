@@ -143,7 +143,7 @@ function Hero() {
           <div><strong>8.67/10</strong><span>B.Tech CGPA</span></div>
           <div><strong>M.Sc.</strong><span>Uni Stuttgart</span></div>
           <div><strong>IEEE</strong><span>Publication</span></div>
-          <div><strong>React</strong><span>This project</span></div>
+          <div><strong>B.Tech</strong><span>Amrita Uni</span></div>
         </div>
       </div>
     </section>
